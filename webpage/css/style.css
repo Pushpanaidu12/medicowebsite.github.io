@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.body{
+    width: 100%;
+height: 100%;
+background-image: url('../images/background.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.header{
+    width: 100%;
+height: 35px;
+background-image: url('../images/header.jpg');
+}
+
+.bottom-shadow{
+    height: 17px;
+background-image: url("../images/bottom-shadow.png");
+background-size: cover;
+margin-top: 60px;
+
+}
+.hospLogo{
+    float: left;
+width: 60px;
+height: 50px;
+background-image: url("../images/logo.png");
+background-size: 60px 50px;
+background-repeat: no-repeat;
+margin-left: 10px;
+}
+.hospName{
+    float: left;
+    font-size: 22px;
+    margin-top: 12px;
+
+}
+
+.nav-bar .nav-container li{
+    float: right;
+    list-style-type: none;
+    margin-top: 16px;
+}
+.nav-bar .nav-container li a{
+text-decoration: none;
+padding: 0px 60px 0px 0px;
+color: rgb(10, 114, 189);
+transition: all 0.5s ease 0s;
+}
+
+.nav-bar .nav-container li a:hover{
+transition: all 0.5s ease 0s;
+color: rgb(24, 20, 92);
+}
+
+.hospspeciality div{
+    width: 192px;
+    height: 193px;
+    float: left;
+   background-color: rgb(250, 250, 252);
+    margin: 302px 53px 0px 71px;
+ box-shadow: 0px 2px 12px 0px;
+color: rgb(126, 126, 127);
+border-radius: 100px;
+position: relative;
+}
+
+.hospspeciality div a{
+    text-decoration: none;
+    color: rgb(10, 114, 189);
+transition: all 0.5s ease 0s;
+margin: 86px 0px 0px 40px;
+position: absolute;
+font-size: 20px;
+}
+.hospspeciality div:hover{
+    transition: all 0.5s ease 0s;
+color: #e6f2ff;
+}
+.image{
+    height:30px;
+    float:left;
+    background-image: url("../images/tick.png");
+background-size: 20px 20px;
+background-repeat: no-repeat;
+margin-left: 30px;
+}
